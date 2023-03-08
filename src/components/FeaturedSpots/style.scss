@@ -1,0 +1,49 @@
+.featuredSpots{
+    background-color: rgba(36, 36, 36, 1);
+    display: flex;
+    margin: 40px 0;
+    aside{
+        width: 20vw;
+        padding: 40px;
+        text-align: end;
+        color: white;
+        h2{
+            margin: 0;
+        }
+    }
+    .cards{
+        padding: 50px;
+        width: 70vw;
+        .swiper-wrapper{
+            margin: 0 50px;
+            width: 80% !important;
+        }
+        .swiper-button-next, .swiper-button-prev{
+            padding: 0;
+            color: black;
+        }
+        .card{
+            width: 250px;
+            color: white;
+            h3{
+                margin: 20px 0 0 0;
+            }
+            .country{
+                opacity: 0.5;
+            }
+            .text{
+                margin: 20px 0;
+            }
+            a{
+                color: rgb(234, 216, 77);
+            }
+        }
+    }
+}
+.card{
+    img{
+        width: 200px;
+        height: 200px;
+    }
+}
+

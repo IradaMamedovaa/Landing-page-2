@@ -1,0 +1,41 @@
+.subscription {
+  background-color: rgba(36, 36, 36, 1);
+  display: flex;
+  justify-content: center;
+  .container {
+    margin: 50px;
+    padding: 50px;
+    position: relative;
+    height: 200px;
+    width: 500px;
+    background-image: url(../../assets/images/map.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h3{
+        font-weight: 700;
+        color: white;
+        font-size: 20px;
+        margin-bottom: 50px;
+        position: absolute;
+        top: 0;
+    }
+    input{
+        border: none;
+        width: 300px;
+        border-radius: 30px;
+        padding: 10px 15px;
+        outline: 0;
+    }
+    button{
+        background-color: rgb(234, 216, 77);
+        border: none;
+        padding: 10px 20px;
+        border-radius: 20px;
+    }
+  }
+}

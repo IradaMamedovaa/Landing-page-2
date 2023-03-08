@@ -1,0 +1,22 @@
+footer{
+    padding: 20px 40px;
+    background-color:rgb(234, 216, 77);;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    div{
+        display: flex;
+        align-items: center;
+    }
+    .logo{
+        font-weight: 700;
+    }
+    .copyrights{
+        font-size: 12px;
+        font-weight: 600;
+        gap: 0;
+    }
+    .social{
+        gap: 20px;
+    }
+}
